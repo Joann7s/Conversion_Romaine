@@ -13,6 +13,8 @@ let ten;
 let cent;
 let mille;
 //intégration d'une invite de saisie
+//installation du package "readline-sync" sous Node.JS nécessaire:
+//npm install readline-sync
 let readline = require("readline-sync");
 let numberToRom = readline.question("Saisissez un nombre entre 1 et 9 999: ");
 let donneeSaisie;
